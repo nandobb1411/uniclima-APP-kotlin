@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Uniclima</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="Main_label">Uniclima</string>
+    <string name="Desenvolvedores_label">Desenvolvedores</string>
+    <string name="next">Desenvolvedores</string>
+    <string name="previous">Previous</string>
+    <string name="hello_Main">Hello main</string>
+    <string name="hello_Desenvolvedores">Hello desenvolvedores. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
