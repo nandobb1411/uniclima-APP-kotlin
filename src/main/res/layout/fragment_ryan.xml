@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ryan">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="427dp"
+        android:layout_height="735dp"
+        android:src="@drawable/goku"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="293dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="108dp"
+        android:fontFamily="sans-serif-black"
+        android:text="https://www.linkedin.com/in/ryanpereirax/"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView11" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:src="@drawable/github"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.956" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="223dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="44dp"
+        android:fontFamily="sans-serif-black"
+        android:text="https://github.com/ryanpereirax"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toEndOf="@+id/imageView10" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="54dp"
+        android:layout_height="60dp"
+        android:src="@drawable/linkedin_pequeno"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.859" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="370dp"
+        android:layout_height="367dp"
+        android:src="@drawable/ryanfoto"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="293dp"
+        android:layout_height="210dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Ryan Pereira Lima, 18 anos, Estudante de Ciências da Programação no 5º Período. Gosto de jogar vídeo game em horários livres e sair com a família aos finais de semana. Eu sou muito apaixonado por adquirir conhecimento e aprender habilidades novas na área. Curto programar  em Java."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.608" />
+
+    <Button
+        android:id="@+id/missil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showAlertDialog"
+        android:text="Missil"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="237dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

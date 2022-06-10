@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Uniclima</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="Main_label">Uniclima</string>
+    <string name="Desenvolvedores_label">Desenvolvedores</string>
+    <string name="next">Desenvolvedores</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_Desenvolvedores">Hello desenvolvedores. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="location">Location</string>
+    <string name="search_places">search_places</string>
+
+    <string name="text_openGithub">Esse e meu <a href="https://github.com/ryanpereirax">GitHub</a></string>
+    <string name="text_openLinkedln">Esse e meu <a href="https://www.linkedin.com/in/ryanpereirax/">Linkedln</a></string>
+</resources>
